@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+    /*
+body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+        box-sizing: border-box
+    } 
+    */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-child {
+        flex: 1;
+        width: 500px;
+        border: 2px solid yellow;
+    }
+
+    .flex-child:first-child {
+        flex-direction: column;
+        margin-right: 20px;
+
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+</style>
+
+<head>
+    <title>Assignment 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <form style="border:1px solid #ccc">
+        <div class="flex-container">
+
+            <div class="flex-child magenta" style="width:fit-content;">
+                <h1>Sign up to Asgard</h1>
+                <label>Already have an account?</label><a href="https://kimzorro.blogspot.com/"> Log in</a> <br><br>
+
+                    <a href="#" class="fa fa-facebook"></a><br>
+
+                <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <meter max="4" id="password-strength-meter"></meter>
+            <p id="password-strength-text"></p>
+
+            <!-- <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>-->
+            <p><span><input type="checkbox" </span>I have read and agree to the terms and services</p>
+            <button type="button" class="createAccount">Create account</button>
+            </div>
+
+            <div class="flex-child green" style="width:fit-content;">
+                <img src="icons/asgard.png" alt="alternatetext">
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
