@@ -1,0 +1,67 @@
+<!-- https://medium.com/@jillplatts/6-minute-beginners-guide-to-css-flexbox-527b3ff3480b-->
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Assignment 2 Part 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/assignment2_p3.css">
+    <link rel="stylesheet" href="css/googlebutton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <form style="border:1px solid #ccc">
+
+        <div class="container">
+            <div>
+                <img src="icons/asgard.png" alt="Hej" style="width:20%;height:auto;">
+            </div>
+            <h1>Sign up to Asgard</h1>
+            <hr>
+            <div> <label>Already have an account?</label><a href="https://kimzorro.blogspot.com/"> Log in</a></div><br>
+
+            <div class="grid-container">
+                <div class="google-btn">
+                    <div class="google-icon-wrapper">
+                        <img alt="Hej" class="google-icon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+                    </div>
+                    <p class="btn-text"><b>Sign in with google</b></p> <br>
+
+                </div>
+                <div class="fb-btn">
+                    <a href="#" class="fa fa-facebook"></a>
+
+                </div>
+            </div>
+            <br>
+            <label><b>Full name</b></label>
+            <input type="text" placeholder="Enter fullname" name="Fullname" required>
+
+            <label><b>E-mail</b></label>
+            <input type="text" placeholder="Enter Email" name="Email" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <meter max="4" id="password-strength-meter" value="2" min="0">2 out of 10</meter>
+            <p id="password-strength-text"></p>
+
+            <!-- <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>-->
+            <p><span><input type="checkbox"> </span> By creating account, you agree to accept our <a
+                    href="https://kimzorro.blogspot.com/"> Privacy Policy</a> <a href="https://kimzorro.blogspot.com/">,
+                    Terms and services</a> <a href="https://kimzorro.blogspot.com/"> and and Notification
+                    settings</a><br>
+
+                <button type="button" class="createAccount">Create account</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
